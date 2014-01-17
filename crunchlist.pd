@@ -1,0 +1,15 @@
+#N canvas 0 22 587 614 10;
+#X symbolatom 230 180 10 0 0 0 - - -;
+#X msg 232 118 symbol;
+#X obj 232 137 t b s;
+#X obj 144 58 inlet;
+#X obj 187 217 list2symbol;
+#X obj 160 134 t l b;
+#X obj 181 275 outlet;
+#X connect 0 0 4 1;
+#X connect 1 0 2 0;
+#X connect 2 1 0 0;
+#X connect 3 0 5 0;
+#X connect 4 0 6 0;
+#X connect 5 0 4 0;
+#X connect 5 1 1 0;
